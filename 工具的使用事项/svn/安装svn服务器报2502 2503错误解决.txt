@@ -1,0 +1,3 @@
+都是要以管理员模式运行
+msiexec /package 
+"I:\soft\学习软件\SVN服务器使用说明及文件\svn\VisualSVN-Server-3.7.1-x64.msi"

@@ -1,0 +1,11 @@
+1. 清理工程配置
+操作：在 project/.idea文件夹下，找到workspace.xml，删除，重启IDEA。 
+注意：重启之后会重新生成新的workspace.xml。
+
+2. 使用IDEA自带的功能清理工程
+操作：File -> Invalidate Caches / Restart … 
+注意：此操作会失去之前的本地工程级别的所有配置，谨慎操作。
+
+3.备份原工程，新建相同的工程
+操作：略 
+注意：此操作比较费时间

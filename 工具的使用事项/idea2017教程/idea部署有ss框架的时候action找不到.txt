@@ -1,0 +1,1 @@
+这个时候要看下那个face有没有配置struts环境  struts.xml

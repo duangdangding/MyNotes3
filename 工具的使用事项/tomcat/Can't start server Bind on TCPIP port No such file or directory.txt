@@ -1,0 +1,10 @@
+可能是文件也可能端口被占用
+开始-运行-cmd进入命令行模式查看3306端口的占用情况
+
+[html] view plain copy
+>netstat -aon|findstr "3306"  
+>TCP 10.1.49.221:3306 74.125.128.17:443 ESTABLISHED 3468  
+可以看到3306端口被占用，进程ID为3468 
+
+
+最后taskkill /f /pid 3468杀掉当前进程，启动Mysql，万事大吉

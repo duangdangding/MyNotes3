@@ -1,0 +1,14 @@
+四、配置Tomcat环境变量
+1，新建变量名：CATALINA_BASE，变量值：C:\tomcat
+2，新建变量名：CATALINA_HOME，变量值：C:\tomcat
+3，打开PATH，添加变量值：%CATALINA_HOME%\lib;%CATALINA_HOME%\bin
+
+五、启动Tomcat服务
+方法两种：
+1，方法一：在CMD命令下输入命令：startup，出现如下对话框，表明服务启动成功。
+2，方法二：右键点击桌面上的“我的电脑”->“管理”->“服务和应用程序”->“服务”，找到“Apache     Tomcat”服务，右键点击该服务，选择“属性”，将“启动类型”由“手动”改成“自动”。
+1，JAVA_HOME中的路径不能用分号结尾，如C:\Program     Files\Java\jdk1.7.0。
+2，CATALINA_BASE，CATALINA_HOME，TOMCAT_HOME中的路径不能以“\”结尾。
+3，JAVA_HOME的路径一定不要写成了JRE的路径。
+4，在环境变量中修改添加变量时，一定要注意分号、空格，是否有多余的字母。作者就是因为path路径中多了一个字母，怎么都配置不成功。如果配置不成功，一定要反复检查。
+   以上错误，非常容易出现错误：CATALINA_HOME或是JAVA_HOME没有配置好。如错误提示“The CATALINA_HOME environment variable is not defined correctly”

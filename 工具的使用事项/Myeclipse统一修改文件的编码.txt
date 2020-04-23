@@ -1,0 +1,3 @@
+1、依次点击Windows -> Preferences -> General -> Content Types ；
+2、在右边的窗口中点击"text"选择 JSP -> Default Encoding 就能修改jsp文件的编码了；
+3、其他格式的文件，依次类推。

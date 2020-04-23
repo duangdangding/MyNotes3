@@ -1,0 +1,3 @@
+打开Window->Preferences->Team->Ignored Resources, 点击Add Pattern按钮，添加要忽略为文件或文件夹
+ 
+比如：要忽略bin文件夹，则添加模式*/bin/*;   忽略.classpath文件，则添加模式*.classpath.

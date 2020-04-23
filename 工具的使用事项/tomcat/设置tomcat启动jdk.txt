@@ -1,0 +1,3 @@
+@echo off
+set JAVA_HOME=D:\Java1.764\jdk1.7.0_07
+set JRE_HOME=D:\Java1.764\jdk1.7.0_07\jre

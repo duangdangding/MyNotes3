@@ -1,0 +1,4 @@
+启动tomcat 7.0, 看到日志里出现严重警告， An incompatible version 1.1.14 of APR based Apache Tomcat Native library is installed, while Tomcat requires version 1.1.24.
+就上网查了查，APR是Apache portable Runtime的缩写，是tomcat的一个可选组件，这个工程组件在tomcat中的使用增进了稳定性和性能,特别是当tomcat也用于web服务器的时候. 按照网上的方法，在http://archive.apache.org/dist/tomcat/tomcat-connectors/native上下载了1.1.24版本，复制到tomcat目录的bin文件夹下，重启tomcat, 但是tomcat的启动日志里还是出现这个警告，然后我把该dll文件再复制到jdk的下的bin文件夹下，和jre下的bin文件夹下，再次重启，警告已经没了。
+
+tomcat-native-1.2.14-win32-bin.zip

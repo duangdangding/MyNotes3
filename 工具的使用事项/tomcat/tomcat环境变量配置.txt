@@ -1,0 +1,8 @@
+CATALINA_BASE
+D:\apache-tomcat-7.0.70
+
+CATALINA_HOME
+D:\apache-tomcat-7.0.70
+
+PATH
+%CATALINA_HOME%\lib;%CATALINA_HOME%\bin

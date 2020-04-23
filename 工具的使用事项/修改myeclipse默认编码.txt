@@ -1,0 +1,5 @@
+window-->preferences-->general-->workspace
+右边窗口
+最下面
+Text file encoding
+选择other 选择你想要的编码

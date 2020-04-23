@@ -1,0 +1,7 @@
+Missing library: xdoclet-1.2.3.jar. Select the home directory for XDoclet. 1.2.3
+
+
+去这里下载xdoclet-bin-1.2.1.zip
+http://sourceforge.net/projects/xdoclet/files/xdoclet/1.2.1/
+解压出来，比如解压到C:\xdoclet-1.2.1，那么把eclipse里的XDoclet home设置成C:\xdoclet-1.2.1\lib
+下载xdoclet-bin-1.2.1.zip 解压在指定目录  选择lib目录

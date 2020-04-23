@@ -1,0 +1,3 @@
+解决方案：File->Project Structure->Project->Project language level
+
+如果你是jdk1.8 改到8即可

@@ -1,0 +1,9 @@
+1) 到eclipse安装目录下，找到eclipse.ini.
+
+2）将Xmx1024m修改成512m或者更小。
+
+-Dosgi.requiredJavaVersion=1.7
+
+-Xms256m
+
+-Xmx1024m

@@ -1,0 +1,5 @@
+按照《轻量级Java EE企业应用实战》书上的说明进行Convention配置，启动服务器后抛出一下异常，经百度后得知，需要添加一下jar包。
+
+asm-commons-3.3.jar
+asm-3.3.jar
+asm-tree-3.3.jar

@@ -1,0 +1,13 @@
+最后是在pom.xml中做了配置
+
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.1.0</version>
+        <scope>provided</scope>
+    </dependency>
+
+原因是没有加 <scope>provided</scope>
+
+加上如上就可以了，具体为什么不细说了，可以去学下maven
